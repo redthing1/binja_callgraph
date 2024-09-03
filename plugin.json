@@ -1,0 +1,11 @@
+{
+    "pluginmetadataversion": 2,
+    "name": "Callgraph",
+    "description": "Generate a callgraph for called and calling functions",
+    "author": "redthing1, borzacchiello",
+    "type": [
+        "ui"
+    ],
+    "version": "1.1",
+    "minimumBinaryNinjaVersion": 1987
+}
