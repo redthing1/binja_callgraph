@@ -259,7 +259,7 @@ def callgraph(bv, current_function):
 
 def callgraph_reversed(bv, current_function):
     bv.update_analysis_and_wait()
-    graph = GraphWrapper(current_function)
+    graph = GraphWrapper(bv, current_function)
 
     visited = set()
     stack = [current_function]
